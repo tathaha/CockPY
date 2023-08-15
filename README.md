@@ -7,6 +7,12 @@ public and open source version of the cbt2 ps im working on
 
 ## Setup:
 (Manual)
+(Optional but recommended) Create a virtual environment
+    ```
+    python -m venv venv
+    venv\Scripts\activate.bat or venv\Scripts\activate.ps1 for PowerShell (Windows)
+    source venv/bin/activate (Linux)
+    ```
 - `pip install -r ./requirements.txt`
 
 - `git clone https://github.com/lilmayofuksu/pyenet --recursive && cd pyenet`
